@@ -1,0 +1,9 @@
+<style>
+  body { font-family: sans-serif; color: #333; margin: 0; text-align: center; line-height: 1.5; }
+  header { background: #f8f8f8; padding: 1.5em 0; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+  section { max-width: 700px; margin: 2em auto; padding: 0 1em; }
+  img { display: block; margin: 0 auto 1em; }
+  .note { background: #fff3cd; color: #856404; border: 1px solid #ffeeba; padding: 1em; border-radius: 5px; margin-bottom: 2em; }
+  footer { margin-top: 3em; padding: 1em; font-size: 0.9em; color: #888; border-top: 1px solid #ddd; }
+  ul { text-align: left; display: inline-block; margin: 1em auto; padding-left: 1.2em; }
+</style>
