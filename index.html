@@ -26,7 +26,7 @@
     }
 
     section {
-      max-width: 600px;
+      max-width: 700px;
       margin: 2em auto;
       padding: 0 1em;
     }
@@ -34,6 +34,16 @@
     img {
       display: block;
       margin: 0 auto 1em;
+    }
+
+    .note {
+      background: #fff3cd;
+      color: #856404;
+      border: 1px solid #ffeeba;
+      padding: 1em;
+      border-radius: 5px;
+      margin-bottom: 2em;
+      font-size: 0.95em;
     }
 
     blockquote {
@@ -50,6 +60,26 @@
       color: #888;
       border-top: 1px solid #ddd;
     }
+
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    ul {
+      text-align: left;
+      display: inline-block;
+      margin: 1em auto;
+      padding-left: 1.2em;
+    }
+
+    ul li {
+      margin-bottom: 0.5em;
+    }
   </style>
 </head>
 <body>
@@ -59,7 +89,13 @@
     <p>Programmieren lernen mit Spaß – für Kinder, Lehrer und Schulen weltweit.</p>
   </header>
 
-  <!-- Bugsy-Section -->
+  <!-- Hinweis Entwicklungsstatus -->
+  <section class="note">
+    <strong>Hinweis:</strong> KidsCoderSandbox befindet sich derzeit noch in aktiver Entwicklung.
+    Wir arbeiten daran, eine kinderfreundliche Programmierumgebung zu schaffen, die Schulen und Lernende weltweit unterstützt.
+  </section>
+
+  <!-- Bugsy -->
   <section>
     <img src="bugsy_icon_256x256.png" alt="Bugsy" width="128">
     <h2>Lerne Bugsy kennen</h2>
@@ -69,6 +105,33 @@
       Wie eine Raupe, die sich in einen Schmetterling verwandelt,<br>
       zeigt Bugsy, dass auch Fehler („Bugs“) nur der Anfang von etwas Neuem sind.
     </p>
+  </section>
+
+  <!-- Beschreibung KCS -->
+  <section>
+    <h2>Was ist KidsCoderSandbox?</h2>
+    <p>
+      KidsCoderSandbox ist eine Lernplattform, auf der Kinder spielerisch programmieren lernen können.
+      Der Schwerpunkt liegt auf <strong>Algorithmen und Datenstrukturen</strong>, die kindgerecht vermittelt werden.
+      Dabei kombinieren wir <em>visuelles Lernen</em> mit <em>praktischen Beispielen</em> aus dem Alltag.
+    </p>
+    <p>
+      Lehrer und Eltern erhalten Werkzeuge, um Programmierlogik zu erklären – ohne komplizierte Fachsprache.
+      So können Kinder früh ein <strong>fundiertes Verständnis für logisches Denken</strong> entwickeln.
+    </p>
+  </section>
+
+  <!-- Geplante Features -->
+  <section>
+    <h2>Was kommt als nächstes?</h2>
+    <p>Hier ein Ausblick auf geplante Funktionen:</p>
+    <ul>
+      <li>🔧 Interaktive Beispiele zu Algorithmen (Sortieren, Suchen, etc.)</li>
+      <li>🎨 Visuelle Darstellung von Datenstrukturen wie Listen, Bäume und Graphen</li>
+      <li>🕹 Spielerische Szenarien zum Lernen von Logik und Schleifen</li>
+      <li>📚 Materialien und Arbeitsblätter für Lehrer</li>
+      <li>🌍 Mehrsprachige Oberfläche für den internationalen Einsatz</li>
+    </ul>
   </section>
 
   <!-- Zitat -->
